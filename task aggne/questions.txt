@@ -1,0 +1,35 @@
+1. Which attribute specifies a unique alphanumeric identifier to be associated with an element?
+a) class
+b) id
+c) article
+d) html
+View Answerb
+
+2. The _____________ attribute specifies an inline style associated with an element, which determines the rendering of the affected element.
+a) dir
+b) style
+c) class
+d) article
+View Answerb
+
+3. Which attribute is used to provide an advisory text about an element or its contents?
+a) tooltip
+b) dir
+c) title
+d) head
+View Answerc
+
+4. The __________ attribute sets the text direction as related to the lang attribute.
+a) lang
+b) sub
+c) dir
+d) ds
+View Answerc
+
+5. Which of the following is the attribute that specifies the column name from the data source object that supplies the bound data?
+a) dataFormatAs
+b) datafld
+c) disabled
+d) datasrc
+View Answerb
+

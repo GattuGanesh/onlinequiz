@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz app</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="home-box custom-box ">
+            <h3>Instruction:</h3>
+            <p>Total number of questions:<span class="total-question">10</span></p>
+            <button type="button" class="btn" onclick="startQuiz()"> Start Quiz</button>
+        </div>
+
+        <div class="quiz-box custom-box hide">
+            <div class="question-number"> </div>
+            <div class="question-text"></div>
+            <div class="option-container">
+                
+            </div>
+            <div class="next-question-btn">
+                <button type="button" class="btn" onclick="next()">Next</button>
+            </div>
+            
+               
+            </div>
+            <div class="view-box custom-box hide">
+                <div class="q-n"></div>
+                <div class="q-t"></div>
+                <div class="o-c"></div>  
+                </div>
+            <div class="view-box1 custom-box hide ">
+                    <div class="q-n1"></div>
+                    <div class="q-t1"></div>
+                    <div class="o-c1"> </div> 
+
+            </div>  
+            <div class="view-box2 custom-box hide ">
+                <div class="q-n2"></div>
+                <div class="q-t2"></div>
+                <div class="o-c2"></div>
+            </div>
+            <div class="view-box3 custom-box hide ">
+                <div class="q-n3"></div>
+                <div class="q-t3"></div>
+                <div class="o-c3"></div> 
+            </div>
+            <div class="view-box4 custom-box hide">
+                <div class="q-n4"></div>
+                <div class="q-t4"></div>
+                <div class="o-c4"></div> 
+            </div>
+            <div class="view-box5 custom-box hide ">
+                <div class="q-n5"></div>
+                <div class="q-t5"></div>
+                <div class="o-c5"></div> 
+            </div>
+            <div class="view-box6 custom-box hide">
+                <div class="q-n6"></div>
+                <div class="q-t6"></div>
+                <div class="o-c6"></div> 
+            </div>
+            <div class="view-box7 custom-box hide">
+                <div class="q-n7"></div>
+                <div class="q-t7"></div>
+                <div class="o-c7"></div> 
+            </div>    
+            <div class="view-box8 custom-box hide">
+                <div class="q-n8"></div>
+                <div class="q-t8"></div>
+                <div class="o-c8"></div> 
+            </div>
+            <div class="view-box9 custom-box hide">
+                <div class="q-n9"></div>
+                <div class="q-t9"></div>
+                <div class="o-c9"></div> 
+            </div>
+           
+            
+        
+        <div class="result-box custom-box hide">
+            <h1>Quiz Results</h1>
+            <table>
+                <tr>
+                    <td>Total Question</td>
+                    <td><span class="total-question"></span></td>
+                </tr>
+                <tr>
+                    <td>Attempts</td>
+                    <td><span class="total-attempt"></span></td>
+                </tr>
+                <tr>
+                    <td>Correct</td>
+                    <td><span class="total-correct"></span></td>
+                </tr>
+                <tr>
+                    <td>Wrong</td>
+                    <td><span class="total-wrong"></span></td>
+                </tr>
+
+            </table>
+            <button type="button" class="btn" onclick="viewAnswer()">View Answers</button>
+            <button type="button" class="btn" onclick="goTohome()">Go To Home</button>
+            <button type="button" class="btn" onclick="TryAgain()">Try Again</button>
+
+        </div>
+        <script src="js/question.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html> 
